@@ -1,4 +1,9 @@
-
+/*
+ * 3) Um sistema de farmácia possui um cadastro de parceiros  que podem ser de três tipos: 
+ * Funcionários (código, nome, telefone, e-mail, número CTPS, série CTPS ), 
+ * Clientes (código, nome, telefone, e-mail, celular, RG, CPF ), 
+ * Fornecedores (código, nome, telefone, e-mail, razão social, IE, CNPJ );
+ */
 public class Principal {
 
 	public static void main(String[] args) {
