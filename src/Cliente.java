@@ -41,8 +41,4 @@ public class Cliente extends Parceiro {
 		return "Nome: " + getNome() + "\nEmail: " + getEmail()
 			+ "\nCelular: " + celular + "\nCPF: " + cpf;
 	}
-	@Override
-	public void adicionarBonus() {
-		setBonusDeCompra(getBonusDeCompra() + 8); 
-	}
 }

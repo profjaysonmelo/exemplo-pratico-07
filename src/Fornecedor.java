@@ -41,8 +41,4 @@ public class Fornecedor extends Parceiro {
 		return super.imprimir() 
 			+ "\nRazão Social: " + razaoSocial + "\nCNPJ: " + cnpj;
 	}
-	@Override
-	public void adicionarBonus() {
-		setBonusDeCompra(getBonusDeCompra() + 3); 
-	}
 }

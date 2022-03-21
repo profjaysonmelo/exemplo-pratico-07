@@ -32,8 +32,4 @@ public class Funcionario extends Parceiro {
 	public String toString() {
 		return "Funcionario [numeroCtps=" + numeroCtps + ", serieCtps=" + serieCtps + "]";
 	}
-	@Override
-	public void adicionarBonus() {
-		setBonusDeCompra(getBonusDeCompra() + 1); 
-	}
 }

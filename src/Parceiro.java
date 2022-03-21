@@ -55,8 +55,4 @@ public class Parceiro {
 	public String toString() {
 		return "UM RETORNO A MINHA ESCOLHA...";
 	}
-	
-	public void adicionarBonus() {
-		bonusDeCompra = bonusDeCompra + 6;
-	}
 }
